@@ -1,0 +1,264 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>首页</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<script src="js/jquery.min.js"></script>
+		<script src="js/popper.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		<style type="text/css">
+			.banner {
+				z-index: 2;
+			}
+			.banner_ul>ul>li {
+				width: 45px;
+				height: 3px;
+				border-radius: 1px;
+				z-index: 9999;
+			}
+
+			.banner_ul {
+				width: 100%;
+				margin-top: -30px;
+				text-align: center;
+			}
+
+			.btns {
+				background-color: lightgray;
+				color: white;
+			}
+
+			.text_ {
+				color: #888888;
+				font-size: 12px;
+				margin-bottom: 34px;
+			}
+
+			.text_1 {
+				color: #888888;
+				font-size: 16px;
+				margin: 10 0;
+			}
+
+			.d {
+				background-color: white;
+				z-index: 33;
+			}
+
+			.imgs {
+				transition: 1s;
+				max-width: 100%;
+				max-height: 100%;
+			}
+
+			.imgs:hover {
+				transform: scale(1.06, 1.06);
+			}
+				#demo1{
+					display: none;
+				}
+				.company {
+					padding-left: 15px;
+					padding-top: 40px;
+					width: 100%;
+				}
+
+				.img_div {
+					overflow: hidden;
+				}
+
+				.d_f {
+					overflow: hidden;
+				}
+
+				.d2 {
+					padding: 42px;
+					width: 100%;
+				}
+			}
+			.footer_box{
+				height: 200px;
+				background-color: #656568;
+			}
+			.footer{
+				padding: 50px 0;
+				font-size: 12px;
+				background-color: #656568;
+			}
+			
+				@media (min-width:768px) {
+					#demo1{
+						display: block;
+					}
+					#demo2{
+						display: none;
+					}
+				.company {
+					position: absolute;
+					padding: 0 115px;
+					width: 100%;
+				}
+				.img_div {
+					overflow: hidden;
+				}
+				.d_f {
+					overflow: hidden;
+				}
+				
+			}
+			@media (min-width:768px) and (max-width:1159px) {
+				.col-self-6 {
+					-webkit-box-flex: 0;
+					-ms-flex: 0 0 50%;
+					flex: 0 0 50%;
+					max-width: 50%;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="container-fluid px-0">
+			<!-- header -->
+			<div class="navbar navbar-light navbar-expand-md px-0">
+				<div class="dropdown">
+					<a data-toggle="dropdown" class="navbar-brand ml-4" href="#">
+						<img src="img/logo.png">
+					</a>
+					<ul class="dropdown-menu border-0 py-0 bg-white">
+						<li class="text-center">爱依服</li>
+						<li class="text-center">古缇莉</li>
+					</ul>
+				</div>
+				</a>
+				<button data-toggle="collapse" data-target="#nav1" class="navbar-toggler border-0">
+					<span class="navbar-toggler-icon "></span>
+				</button>
+				<div id="nav1" class="collapse navbar-collapse">
+					<ul class="navbar-nav">
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">首页</a></li>
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">关于我们</a></li>
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">品牌中心</a></li>
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">新闻中心</a></li>
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">人才发展</a></li>
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">店铺</a></li>
+						<li class="nav-item text-center mr-4"><a class="nav-link" href="#">联系我们</a></li>
+					</ul>
+				</div>
+			</div>
+			<!-- header end -->
+			
+				<!-- banner -->
+			<div class="content row no-gutters">
+				<div id="demo1" class="carousel col-md-12" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active">
+							<img class="" src="./img/thumb_1920_860_20190122024024332.jpg" alt="">
+						</div>
+						<div class="carousel-item">
+						<img class="" src="./img/thumb_1920_860_20190122024140685%20(1).jpg" alt="">
+						</div>
+					</div>
+					<ul class="carousel-indicators">
+						<li data-target="#demo1" data-slide-to="0" class="active"></li>
+						<li data-target="#demo1" data-slide-to="1"></li>
+					</ul>
+				</div>
+				<div id="demo2" class="carousel col-sm-12" data-ride="carousel">
+					<div class="carousel-inner">
+						<div class="carousel-item active" >
+							<img class="w-100" src="./img/20180331110012409.jpg" alt="">
+						</div>
+					<div class="carousel-item" >
+						<img class="w-100" src="./img/20180331110057125.jpg" alt="">
+					</div>
+					</div>
+					<ul class="carousel-indicators">
+						<li data-target="#demo2" data-slide-to="0" class="active"></li>
+						<li data-target="#demo2" data-slide-to="1"></li>
+					</ul>
+				</div>
+				<!-- banner end -->
+				<!-- company -->
+				<div class="col-sm-12 col-md-6 d_f">
+					<img class="col-12 px-0 imgs" src="img/20180330023603791.jpg" alt="">
+				</div>
+				<div class="col-sm-12 col-md-6 d  d-flex align-items-center">
+					<div class="company">
+						<p class="h2">集团简介</p>
+						<p class="text_">GROUP PROFILE</p>
+						<p class="text_ pb-3">
+							广东爱依服商贸有限公司创始于2004年，是一家多元化生态发展的集生产、销售于一体的时装品牌公司。公司旗下拥有IEF爱依服，IEF爱依服童装，古缇莉三大品牌，各品牌针对差异化的细分市...
+						</p>
+						<a href="#" class="btn btns btn-light rounded-0 mb-5">Read more———</a>
+					</div>
+				</div>
+				<!-- company end -->
+				<!-- 4img -->
+				<div class="col-12 row no-gutters">
+					<div class="col-sm-12 col-md-3 col-self-6 img_div">
+						<img class="col-12 px-0 imgs" src="img/thumb_400_400_20180128033841846.png">
+					</div>
+					<div class="col-sm-12 col-md-3 col-self-6 d2_f d-flex align-items-center">
+						<div class="d2 text-center p-md-4">
+							<p class="text_1">2018-01-21</p>
+							<p class="h5">承蒙时光不弃，你我始终相遇 IEF十三周年</p>
+							<p class="text_">承蒙时光不弃，你我始终相遇IEF十三周年庆</p>
+							<a href="#" class="btn btns btn-light rounded-0 mb-5">Read more———</a>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3 col-self-6 img_div">
+						<img class="col-12 px-0 imgs" src="img/thumb_400_400_20180128033936461.png">
+					</div>
+					<div class="col-sm-12 col-md-3 col-self-6 d-flex align-items-center">
+						<div class="d2 text-center p-md-4">
+							<p class="text_1">2018-01-21</p>
+							<p class="h5">感恩13年陪伴 IEF感恩有你</p>
+							<p class="text_">感恩13年陪伴 IEF感恩有你</p>
+							<a href="#" class="btn btns btn-light rounded-0 mb-5">Read more———</a>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-12 row no-gutters">
+					<div class="col-sm-12 col-md-3 col-self-6 img_div">
+						<img class="col-12 px-0 imgs" src="img/thumb_400_400_20180128034248814.png">
+					</div>
+					<div class="col-sm-12 col-md-3 col-self-6 d-flex align-items-center">
+						<div class="d2 text-center p-md-4">
+							<p class="text_1">2018-01-21</p>
+							<p class="h5">新型合伙模式正式上线！</p>
+							<p class="text_">零成本，零压力，我们准备好店铺，你来当老板！IEF的又一创新合作模式成功开启 </p>
+							<a href="#" class="btn btns btn-light rounded-0 mb-5">Read more———</a>
+						</div>
+					</div>
+					<div class="col-sm-12 col-md-3 col-self-6 img_div">
+					<img class="col-12 px-0 imgs" src="img/thumb_400_400_20180128034339918.png">
+					</div>
+					<div class="col-sm-12 col-md-3 col-self-6 d-flex align-items-center">
+						<div class="d2 text-center p-md-4">
+							<p class="text_1">2018-01-21</p>
+							<p class="h5">遇见IEF·最美时光——征文大赛入选作品</p>
+							<p class="text_">遇见IEF·最美时光——征文大赛入选作品</p>
+							<a href="#" class="btn btns btn-light rounded-0 mb-5">Read more———</a>
+						</div>
+					</div>
+				</div>
+				<!-- 4img end -->
+				<!-- foot -->
+				<div class="col-12 no-gutters footer_box">
+					<div class="footer">
+						<ul class="list-unstyled mb-3 d-flex justify-content-center">
+							<li><a class="text-white" href="#">爱依服微博</a></li>
+							<li class="text-white mx-2 foot_l">|</li>
+							<li><a class="text-white" href="#">古缇莉微博</a></li>
+						</ul>
+					<p class="mb-3 text-center text-white">招商联系：（0757）8833 4222 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;客户服务热线：（0757）6661 1938</p>
+					<p class="text-center text-white">版权所有 广东爱依服商贸有限公司 © Copyright 2010 - 2018.IEF爱依服. All Rights Reserved</p>
+					</div>
+				</div>
+				<!-- foot end -->
+			</div>
+		</div>
+	</body>
+</html>
